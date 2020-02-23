@@ -1,0 +1,31 @@
+{
+  "name": "wc-storybook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FunThomas424242/wc-storybook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FunThomas424242/wc-storybook/issues"
+  },
+  "homepage": "https://github.com/FunThomas424242/wc-storybook#readme",
+  "dependencies": {
+    "@huluvu424242/honey-speech": "0.0.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@storybook/web-components": "^5.3.13",
+    "babel-loader": "^8.0.6",
+    "lit-html": "^1.1.2"
+  }
+}
